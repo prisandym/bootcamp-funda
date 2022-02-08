@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/assets/site.webmanifest" />
+    <title>Latihan</title>
+    <style>
+      table,
+      th,
+      tr,
+      td {
+        border-collapse: collapse;
+        border: 1px solid black;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Form Manusia</th>
+          <th>Form Hewan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+              Nama : <input type="text" placeholder="ketik disini" name="kata" /> <br /><br />
+              Usia : <input type="number" placeholder="ketik disini" name="kata" /> <br /><br />
+              Kelamin :
+              <input type="radio" name="gender" value="pria" /> Pria
+              <input type="radio" name="gender" value="wanita" /> Wanita <br />
+              <br />
+              Pekerjaan :
+              <select id="job">
+                <option value="" hidden selected> pilih profesi</option>
+                <option value="guru">guru</option>
+                <option value="arsitek">arsitek</option>
+                <option value="petani">petani</option>
+              </select> <br><br>
+              <button onclick="klikAja()">Tambahkan</button>
+
+              <br><br>
+          </td>
+          <td>
+            Nama : <input type="text" placeholder="ketik disini" name="kata" /> <br /><br />
+            Usia : <input type="number" placeholder="ketik disini" name="kata" /> <br /><br />
+            Kelamin :
+            <input type="radio" name="gender" value="jantan" /> Jantan
+            <input type="radio" name="gender" value="betina" /> Betina <br />
+            <br />
+            Status :
+            <input type="radio" name="status" value="liar" /> Liar 
+            <input type="radio" name="status" value="peliharaan" /> Peliharaan <br />
+            <br />
+            <button onclick="klikAja()">Tambahkan</button>
+            <br><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br><br>
+    <table>
+        <thead>
+          <tr>
+            <th>Data Manusia</th>
+            <th>Data Hewan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+                Nama : <input type="text" placeholder="ketik disini" name="kata" /> <br /><br />
+                Usia : <input type="number" placeholder="ketik disini" name="kata" /> <br /><br />
+                Kelamin :
+                <input type="radio" name="gender" value="pria" /> Pria
+                <input type="radio" name="gender" value="wanita" /> Wanita <br />
+                <br />
+                Pekerjaan :
+                <select id="job">
+                  <option value="" hidden selected> pilih profesi</option>
+                  <option value="guru">guru</option>
+                  <option value="arsitek">arsitek</option>
+                  <option value="petani">petani</option>
+                </select> <br><br>
+                <button onclick="klikAja()">Tambahkan</button>
+  
+                <br><br>
+            </td>
+            <td>
+              Nama : <input type="text" placeholder="ketik disini" name="kata" /> <br /><br />
+              Usia : <input type="number" placeholder="ketik disini" name="kata" /> <br /><br />
+              Kelamin :
+              <input type="radio" name="gender" value="jantan" /> Jantan
+              <input type="radio" name="gender" value="betina" /> Betina <br />
+              <br />
+              Status :
+              <input type="radio" name="status" value="liar" /> Liar 
+              <input type="radio" name="status" value="peliharaan" /> Peliharaan <br />
+              <br />
+              <button onclick="klikAja()">Tambahkan</button>
+              <br><br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      
+  </body>
+  <script src="./index.js"></script>
+</html>
